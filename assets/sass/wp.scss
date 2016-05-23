@@ -1,0 +1,68 @@
+/*
+  Css to pass test on wp platform
+*/
+
+
+/**
+ * 4.0 Alignment
+ */
+
+.alignleft {
+	float: left;
+	margin: 7px 28px 28px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 7px 0 28px 28px;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 7px auto;
+}
+
+
+/**
+ * 5.0 Caption
+ */
+
+.wp-caption {
+	background: transparent;
+	border: none;
+	color: #707070;
+	font-family: "Noto Sans", sans-serif;
+	margin: 0 0 28px 0;
+	max-width: 100%;
+	padding: 0;
+	text-align: inherit;
+}
+
+.wp-caption.alignleft {
+	margin: 7px 28px 21px 0;
+}
+
+.wp-caption.alignright {
+	margin: 7px 0 21px 28px;
+}
+
+.wp-caption.aligncenter {
+	margin: 7px auto;
+}
+
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+	font-size: 14px;
+	line-height: 1.5;
+	padding: 7px 0;
+}
+
+/**
+* Other
+*/
+
+.sticky {}
+.screen-reader-text {}
+.gallery-caption {}
+.bypostauthor {}
