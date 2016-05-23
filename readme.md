@@ -2,7 +2,7 @@
 
 # Présentation
 
-_Prllx est un theme builder basé sur le starter thème [FutureImperfect](https://github.com/Palisanka/FutureImperfect)
+_Prllx est un theme builder orienté parallax basé sur le starter thème [FutureImperfect](https://github.com/Palisanka/FutureImperfect). Il inclut les plugins page builder, custom css, et widgets bundle de [siteorigin](https://siteorigin.com/)
 
 _Prllx ajoute :
 * widget Prllx Controller qui permet la [manipulation de scène](http://scrollmagic.io/examples/basic/scene_manipulation.html)
@@ -13,7 +13,7 @@ _Prllx ajoute :
 
 ## Widget Prllx Controller
 
-Fichier inc/prllx.php
+Fichier **inc/prllx.php**
 
 Le widget peut être intégrer dans n'importe quel sidebar.
 Utilisation minimale:
@@ -22,7 +22,7 @@ Utilisation minimale:
 * penser à activer les indicateurs (true) pour la création et les désactiver pour la publication
 
 ## Customizer Prllx Section  
-Fichiers inc/prllx_customizer.php et inc/typo_customizer.php
+Fichiers **inc/prllx_customizer.php** et **inc/typo_customizer.php**
 
 La section "Prllx" dans le customizer créé des sections parallax, la page doit être associé au modèle page_prllx_section_full.php lors de la création de la page.
 
@@ -30,9 +30,12 @@ La section "Prllx" dans le customizer créé des sections parallax, la page doit
 
 ## Customizer Prllx Typo
 
-Fichiers inc/typo_customizer.php et assets/prllx/prllx.php
+Fichiers **inc/typo_customizer.php** et **assets/prllx/prllx.php**
 
 La feuille de style est prllx.php, elle est dynamique et les styles ne sont donc pas intégré dans le `<html style="">`
+
+## Scrennshot
+![screenshot](screenshot.png)
 
 # Licence
 
